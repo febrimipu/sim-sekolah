@@ -45,12 +45,14 @@ class PermissionsSeeder extends Seeder
         $user = \App\Models\User::factory()->create([
             'name' => 'Super-Admin Userr',
             'email' => 'superadmin@example.com',
+            'password' => bcrypt('password'),
         ]);
         $user->assignRole($role1);
 
         $user = \App\Models\User::factory()->create([
             'name' => 'Admin User',
             'email' => 'admin@example.com',
+            'password' => bcrypt('password'),
         ]);
         $user->assignRole($role2);
     }
