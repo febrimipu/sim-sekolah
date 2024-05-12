@@ -1,4 +1,15 @@
 {
+    "name": "sim-sekolah",
+    "description": "SIM Sekolah Scriptmedia Indonesia",
+    "version": "0.0.1",
+    "repository": "https://github.com/febrimipu/sim-sekolah",
+    "bugs": "https://github.com/febrimipu/sim-sekolah/issues",
+    "authors": [
+        {
+          "name": "Febrianto M Ipu",
+          "email": "febriantomipu@protonmail.com"
+        }
+    ],
     "private": true,
     "type": "module",
     "scripts": {
